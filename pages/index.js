@@ -15,17 +15,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <main>
-      <div className="hero min-h-screen" style={{ backgroundImage: `url("")` }}>
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-           
-          </div>
-        </div>
+      <div className="hero min-h-screen" style={{ backgroundImage: `url("/IMG/beach-family.webp")` }}>
+        <div className="hero-overlay bg-opacity-60 ">
+        <div className="max-w-md ml-4 mt-2">
+           <h1 className="text-tprimary text-4xl font-bold">Tu Dinero en Crecimiento</h1>
+           <h1 className="text-accent text-3xl">Te Ayudamos a Asegurar y Proteger el Futuro de tu Familia</h1>
+          </div>  
       </div>
-
-
-     <div>
+     <div></div>
 
 
      </div>
