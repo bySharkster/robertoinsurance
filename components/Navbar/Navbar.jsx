@@ -1,30 +1,36 @@
-import React, {useState} from 'react'
+
 import Link from "next/link";
 
 export const Navbar = () => {
 
-  const [isOpen, setIsOpen] = useState(false)
 
    return( 
-    <nav className="bg-gray-800 p-6 flex items-center- justify-between">
-      <div className="flex items-center">
+   
+    <div className="w-full navbar bg-primary">
 
-          <Link href="/" className="text-white font-bold font-serif text-justify " >
-          Roberto Rodriguez - Seguros y Anualidades
+      <div className="flex-1 px-2 mx-2">
+          <Link href="/" className="text-tprimary font-bold font-serif text-justify " >
+          Roberto Rodriguez <br/> Seguros y Anualidades
           </Link>
       </div>
 
-      <div className="flex items-center">
-        
-        <Link href="/services" className="text-white font-medium mr-4">
-        Servicios</Link>
-        <Link href="/about" className="text-white font-medium mr-4">
-        Acerca de</Link>
-        <Link href="/contact" className="text-white font-medium mr-4">
+      <div className="flex-none hidden lg:block">
+        <ul className="menu menu-horizontal">
+        <li><Link href="/services" className="text-tprimary font-medium mr-4">
+        Servicios</Link></li>
+        <li><Link href="/about" className="text-tprimary font-medium mr-4">
+        Acerca de</Link></li>
+        <li><Link href="/contact" className="text-tprimary font-medium mr-4">
         Contacto
-        </Link>
+        </Link></li>
+        </ul>
       </div>
       
-    </nav>
+      <div className="flex-none lg:hidden">
+        <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </label>
+      </div> 
+    </div>
     );
   }

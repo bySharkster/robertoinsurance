@@ -13,6 +13,10 @@ module.exports = {
         "fb":"#39569c",
 
         "ig":"#C13584",
+
+        "tprimary":"#e6efe9",
+
+        "tsecondary":"#111",
       }
     },
   },
@@ -21,15 +25,15 @@ module.exports = {
       {
         mytheme: {
         
-        "primary": "#c0c607",
+        "primary": "#005A7C",
                 
-        "secondary": "#1ba5b5",
+        "secondary": "#00B7C9",
                 
-        "accent": "#078e4a",
+        "accent": "#013148",
                 
-        "neutral": "#1D1924",
+        "neutral": "#8f8389",
                 
-        "base-100": "#F9F9FB",
+        "base-100": "#e6efe9",
                 
         "info": "#92A9ED",
                 

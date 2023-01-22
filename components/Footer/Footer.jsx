@@ -3,7 +3,8 @@ import { FaLinkedin, FaInstagram, FaWhatsapp, FaFacebook } from 'react-icons/fa'
 
 export const Footer = () => {
     return(
-  <footer className="bg-color:info text-dark py-8">
+      
+  <footer className="bg-accent text-tprimary py-8">
     <div className="container mx-auto flex justify-between">
       
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
@@ -20,13 +21,13 @@ export const Footer = () => {
           </div>
           </div>
       <div className="flex">
-        <a href="https://whatsapp.com/placeholder" className="mr-2" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/message/73ZQCQ23OX7FC1" className="mr-2" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp  size="lg" className="text-wa" />
         </a>
-        <a href="https://www.facebook.com/in/placeholder/" className="mr-2" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/Connect-Life-Insurance-105959321750172" className="mr-2" target="_blank" rel="noopener noreferrer">
           <FaFacebook  size="lg" className="text-fb" />
         </a>
-        <a href="https://www.instagram.com/placeholder/" className="mr-2" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/connectlifepr/" className="mr-2" target="_blank" rel="noopener noreferrer">
           <FaInstagram  size="lg" className="text-ig  " />
         </a>
       </div>
