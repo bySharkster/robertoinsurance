@@ -16,33 +16,17 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| ¿Quiénes Somos?" textStyles="text-center" />
       <TitleText
         title={(
-          <>Track friends around you and invite them to play together in the same
-            world
+          <>Asesoría de Anualidades, Seguros de Vida y Seguros de Incapacidad
           </>
         )}
         textStyles="text-center"
       />
-
-      <motion.div
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="relative mt-[68px] flex w-full h-[550px]"
-      >
-        <img src="/map.png" alt="map" className="w-full h-full object-cover" />
-
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-          <img src="people-01.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-          <img src="/people-02.png" alt="people" className="w-full h-full" />
-        </div>
-
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-          <img src="people-03.png" alt="people" className="w-full h-full" />
-        </div>
+      <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white">
+        <p><br />  Somos un grupo de Representantes Autorizados bajo el comisionado de Seguros de Puerto Rico comprometidos en ofrecerle los mejores productos en Anualidades y Seguros de vida, incapacidad, cáncer y funeral para el crecimiento de su dinero de una manera segura (con su principal garantizado) y a la vez proveer las mejores herramientas para la protección de activos en caso de una muerte o incapacidad inesperada. <br /><br />Nos destacamos por mantener{' '}<span className="font-extrabold text-white">seriedad, integridad, experiencia y compromiso total.</span>
+        </p>
       </motion.div>
     </motion.div>
   </section>

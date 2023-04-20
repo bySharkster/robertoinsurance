@@ -17,16 +17,16 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Metaverse
+          !Llámanos ya!
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
-            src="/headset.svg"
-            alt="headset"
+            src="/goto.svg"
+            alt="goto"
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Enter Metaverse
+            Asegurate Hoy
           </span>
         </button>
       </div>
@@ -36,10 +36,10 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            Metaversus
+            Roberto Rodriguez
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021 - 2022 Metaversus. All rights reserved.
+            Copyright © 2021 - 2023. Todos los derechos reservados.
           </p>
 
           <div className="flex gap-4">

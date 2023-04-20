@@ -21,17 +21,15 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+            Roberto <br /> Rodriguez
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder | Metaverus
+            Agente General <br /> Representante Autorizado
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
+          Vasta experiencia en la industria de los seguros y anualidades que abarca más de 15 años con compañías prominentes en Puerto Rico quien en el año 2010 fue galardonado como el agente de más venta en todo PR e Islas Vírgenes. También tiene nombramientos con variedad de compañías con los más altos estándares en educación continua y certificación requeridas por el comisionado de seguros de Puerto Rico.
         </p>
       </motion.div>
 
