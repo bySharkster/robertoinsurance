@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 import { motion } from 'framer-motion';
 import { socials } from '../constants';
 
@@ -19,16 +21,14 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           !Llámanos ya!
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/goto.svg"
-            alt="goto"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Asegurate Hoy
-          </span>
-        </button>
+
+        {/* Button to go to the lead form */}
+        <Link href="/ContactForm" target="_blank">
+          <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+            <span className="font-normal text-[16px] text-white"> Asegurate Hoy </span>
+            <img src="/circle-arrow.svg" alt="goto" className="w-[24px] h-[24px] object-contain" />
+          </button>
+        </Link>
       </div>
 
       <div className="flex flex-col">
